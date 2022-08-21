@@ -6,7 +6,7 @@ GeoMatch is a utility that helps in linking various location-based data together
 
 It has the following components:
 
-Geo Data Index. This index contains geolocated records that links to external data sources, such as the vast address-based open data repositories. Data sources that have addresses, but not geolocation, will use address-to-geolocation translation services such as those using the Geocoded National Address File, or the Google Geocoding API (which is helpful to deal with those pesky corner-of addresses.)
+Geo Data Index. This index contains geolocated records that links to external data sources, such as the vast address-based open data repositories. Data sources that have addresses, but not geolocation, will use address-to-geolocation translation services such as those using the Geocoded National Address File, or the Google Geocoding API (which is helpful to deal with those challenging corner-of addresses.)
 
 Match Database. This contains matches made. Matches fall under the following categories:
 - exact match. Entries in the geo data index that are declared to be in the same location by meeting certain standards (ie., within X distance) are linked.
@@ -23,4 +23,4 @@ Using software to match records together via addresses (and regex) are good, but
 
 ### How GeoMatch Addresses the Challenge
 
-GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It can use Geocoded National Address File or services like Google's Geocoding API, to help with those pesky corner-of addresses, and will involve various methods: automated, hybrid (human verified), and user contributed.
+GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It can use Geocoded National Address File or services like Google's Geocoding API, to help with those challenging corner-of addresses, and will involve various methods: automated, hybrid (human verified), and user contributed.
