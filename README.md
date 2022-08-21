@@ -1,6 +1,6 @@
 ## GeoMatch
 
-![screen](artifacts/diagram.png)
+![screen](artifacts/system-design.png)
 
 ### Description
 
