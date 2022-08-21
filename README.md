@@ -16,3 +16,7 @@ Match Database. This contains matches made. Matches fall under the following cat
 Matching App. This provides the user interface to crowdsource the effort to link data together. By presenting data in maps, users can link entries together. Contributions will be credited to the user, and the hope is that, just like Wikipedia, there will be a community of volunteers who will help link together data that software cannot. (Eventually, it is hoped that, eventually, ML/AI can do this too.) It can also be gamified so that users will be rewarded for their efforts.
 
 ![screen](artifacts/system-design.png)
+
+### How GeoMatch Addresses the Challenge
+
+GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It will use services like Google's Geocoding API, and will involve various methods: automated, hybrid (human verified), and user contributed.
