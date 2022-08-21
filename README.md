@@ -23,4 +23,4 @@ Using software to match records together via addresses (and regex) are good, but
 
 ### How GeoMatch Addresses the Challenge
 
-GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It can use services like Google's Geocoding API, to help with those pesky corner-of addresses, and will involve various methods: automated, hybrid (human verified), and user contributed.
+GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It can use Geocoded National Address File or services like Google's Geocoding API, to help with those pesky corner-of addresses, and will involve various methods: automated, hybrid (human verified), and user contributed.
