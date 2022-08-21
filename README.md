@@ -1,5 +1,7 @@
 ## GeoMatch
 
+![screen](artifacts/diagram.png)
+
 ### Description
 
 GeoMatch is a utility that helps in linking various location-based data together.
