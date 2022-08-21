@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## GeoMatch
 
-You can use the [editor on GitHub](https://github.com/jasebanico/GovHack2022-GeoMatch/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+GeoMatch is a utility that helps in linking various location-based data together.
 
-### Markdown
+It has the following components:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Geo Data Index. This index contains geolocated records that links to external data sources, such as the vast address-based open data repositories. Data sources that have addresses, but not geolocation, will use address-to-geolocation translation services such as Google Maps API.
 
-```markdown
-Syntax highlighted code block
+Match Database. This contains matches made. Matches fall under the following categories:
+- exact match. Entries in the geo data index that are declared to be in the same location by meeting certain standards (ie., within X distance) are linked.
+- assisted match. The system identifies candidates for matching, but requires a human to confirm that it is to be linked.
+- user matched. Data not linked by any of the prior processes can be user matched. Using visual tools, users can tag entries that appear to be in the same location together.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jasebanico/GovHack2022-GeoMatch/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Matching App. This provides the user interface to crowdsource the effort to link data together. By presenting data in maps, users can link entries together. Contributions will be credited to the user, and the hope is that, just like Wikipedia, there will be a community of volunteers who will help link together data that software cannot. (Eventually, it is hoped that, eventually, ML/AI can do this too.) It can also be gamified so that users will be rewarded for their efforts.
