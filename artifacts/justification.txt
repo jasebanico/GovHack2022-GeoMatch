@@ -1,0 +1,1 @@
+GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It will use services like Google's Geocoding API, and will involve various methods: automated, hybrid (human verified), and user contributed.
