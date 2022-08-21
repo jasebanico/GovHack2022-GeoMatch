@@ -17,6 +17,10 @@ Matching App. This provides the user interface to crowdsource the effort to link
 
 ![screen](artifacts/system-design.png)
 
+### Data Story
+
+Using software to match records together via addresses (and regex) are good, but have some limitations. Our proposal with GeoMatch is to utilize geolocation to bring them together. They may be done automatically, or may require human input. For the latter, crowdsourcing through volunteers may be a cost-effective way to achieve this.
+
 ### How GeoMatch Addresses the Challenge
 
 GeoMatch is designed to address the challenge of connecting datasets with addresses in open data. It will use services like Google's Geocoding API, and will involve various methods: automated, hybrid (human verified), and user contributed.
